@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 실행 방법
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 명령어: yarn start
+- 기본 포트는 3500
+  <br/>
+  <br/>
 
-## Available Scripts
+# 프로젝트 개요
 
-In the project directory, you can run:
+## 주제
 
-### `npm start`
+캠을 이용한 학습관리 애플리케이션  
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 구현 기능
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 공부 과목 추가, 공부 시간 측정(카운트업): 공부할 과목을 추가 할 수 있고, 각 과목별로 공부 시간을 측정할 수 있다.
+- To-Do 리스트: 각 공부 과목에 대해서 오늘의 To-Do 리스트를 추가, 삭제 할 수 있다.
+- 자리 비움 감지, 눈 감음 감지, 거북목 자세 감지 기능: 시간 측정 중에 자리를 비우거나 눈을 감는 경우 공부 시간 카운트업이 자동으로 멈추게 된다. 또한 거북목 자세가 될 경우 이를 감지해 경고 토스트 메시지를 띄워준다.
+- 온라인 캠 스터디: 다른 유저와 온라인 상에서 캠 스터디가 가능하다.
+- 공부 기록 보기(캘린더, 차트): 유저의 공부 기록을 확인 할 수 있다. 캘린더를 이용해 월간, 주간 기록을 확인 할 수 있고 차트를 통해 일간 기록을 확인 할 수 있다.
 
-### `npm test`
+## 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Front-end: React
+- Back-end: Firebase
+- WebRTC Server: NodeJS
+  <br/>
+  ![22](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/f4f02909-dad3-413a-897a-b2a39edb0749)
+  <br/>
+  <br/>
 
-### `npm run build`
+# 결과물
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 메인화면
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![1-1](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/767dc940-3f96-4d2b-931b-e9b5db487c76)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![1-2](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/4dc72165-6c31-4f9b-861b-6ca5962d8323)  
+<br/>
 
-### `npm run eject`
+## 공부 시간 측정
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| ![2-1](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/fc5967d1-6db5-4f98-a9d7-1a69bd0f52cf) | ![2-1-2](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/33cf54bd-2627-473c-91ea-a66baa09cb4b) |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| ![2-2](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/a711108e-efcc-4c60-a111-480796d0be9c) | ![2-3](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/659e68ac-1fa5-416c-a2cf-324dfce8e201) |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 기록 조회
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| ![3-1](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/7941b087-f33e-4542-8280-a4469f588d33) | ![3-2](https://github.com/Zip-Zoong/zip-zoong/assets/33649857/8cf86a97-ac88-44d5-b9c3-cb23a349eded) |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
